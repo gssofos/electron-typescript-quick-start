@@ -1,8 +1,8 @@
 
 import {app, BrowserWindow } from 'electron';
 
-//const path = require('path')
-//const url = require('url')
+const path = require('path')
+const url = require('url')
 
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -15,11 +15,11 @@ function createWindow () {
 
   win.setMenuBarVisibility(false);
   // and load the index.html of the app.
- /* win.loadURL(url.format({
+ win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
     slashes: true
-  }))*/
+  }))
 
   // Open the DevTools.
   //win.webContents.openDevTools()

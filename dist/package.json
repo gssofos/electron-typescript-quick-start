@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --strictNullChecks --noUnusedLocals --noUnusedParameters --removeComments --module commonjs --target ES6 --outDir ./dist src/main.ts && cp package.json ./dist",
+    "build": "tsc --strictNullChecks --noUnusedLocals --noUnusedParameters --removeComments --module commonjs --target ES6 --outDir ./dist src/main.ts && cp package.json ./dist && cp ./src/index.html ./dist",
     "webpack": "webpack --optimize"
   },
   "devDependencies": {
