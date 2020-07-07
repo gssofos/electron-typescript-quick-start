@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@types/electron": "^1.4.25",
-    "electron": "^1.4.5",
+    "electron": "^9.1.0",
     "geojson": "^0.4.0",
     "lodash": "^4.14.1"
   },
